@@ -37,4 +37,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Credits
 
-This game was created as part of a coding exercise. The logic and implementation were developed by [Your Name].
+This game was created as part of a coding exercise. The logic and implementation were developed by Ashvin Upadhyay.
