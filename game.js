@@ -10,7 +10,7 @@ var highestScore = localStorage.getItem('highestScore') || 0;
 $(document).keypress(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
-    $("#highest-score").text("Highest Score: " + highestScore);
+    $("#highest-score").text("Highest Score: " + highestScore).css("color", "white");
     nextSequence();
     started = true;
   }
@@ -45,7 +45,7 @@ function checkAnswer(currentLevel) {
     if (level > highestScore) {
       highestScore = level;
       localStorage.setItem('highestScore', highestScore);
-      $("#highest-score").text("Highest Score: " + highestScore);
+      $("#highest-score").text("Highest Score: " + highestScore).css("color", "white");
     }
 
     startOver();
